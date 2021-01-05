@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	 <meta charset="UTF-8">
+  <meta name="description" content="ImageShare App is Used For Sharing Clicked or Browsed Image URLs Or Image">
+  <meta name="keywords" content="ImageShare Website">
+  <meta name="author" content="Shivam Pai">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ImageShare</title>
+	<link rel="icon" href="favicon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<script>
+		function d() {
+window.open("https://firebasestorage.googleapis.com/v0/b/shiveshplayshare.appspot.com/o/Apk's%2FImageShare.apk?alt=media&token=6b7fc4c4-d042-4c50-b9de-5bd109ee2a1a", "_self")
+		}
+		function showssr() {
+			document.getElementById("hiddenssr").style.display ="block";
+		}
+	</script>
+	<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">ImageShare</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="/index.html#download">Download</a></li>
+				<li><a href="/privacy.html">Privacy Policy</a></li>
+				<li><a href="/terms.html">Terms &amp; Conditions</a></li>
+				<li><a href="/index.html#contact">Contact</a></li>
+			</ul>
+		</div>
+
+	</nav>
+	<section id="main">
+	<img src="favicon.png" height="200px;" width="200px;">
+		<label style="font-weight: 400;font-size: 50px;">ImageShare</label><br>
+		<label style="font-weight: 400;font-size: 30px;">Share Images Anytime, Anywhere For Free</label><br>
+		<a href="#download"><button href="#download" class="btn btn-success">Download Now</button></a>
+	</section>
+	<section id="download">
+		<h2 style="width:100%; text-align: center">Download</h2>
+	<a href="https://play.google.com/store/apps/details?id=com.gmail.shivampai2079.imageeditor"><img src="get%20it%20on%20google%20play.png"></a>
+	<h3>Or</h3>
+	<a href="https://apkpure.com/imageshare/com.gmail.shivampai2079.imageeditor"><img src="https://static.apkpure.com/www/static/imgs/logo_new@2x.png" title="Download From Apkpure" height="39px;" width="119px;"></a>
+	<br>
+		
+	<h3>Or</h3>
+	<button id="download" class="btn btn-primary" onclick="d()">Download Directly</button><br>
+		<br>
+	<button onclick="showssr()" class="btn btn-success" style="margin-bottom: 20px;">System Requirements</button><br>
+		<label id="hiddenssr">
+		<ul style="font-family: 'Roboto' , sans-serif; font-size: 15px; text-align: left;border-width: 1px;border-color: black;margin-bottom: 20px;">
+		<li>Android OS 5.0 or above</li>
+		<li>Wi-fi or mobile data enabled</li>
+			<li>Should Have Apps installed Like Whatsapp Messenger or Facebook etc. for Sharing</li>
+		</ul>
+		</label>
+	</section>
+	<section id="contact">
+		<span>
+		<div>
+		<a class="contacta" href="mailto:shivampai2079@gmail.com"><label style="cursor: pointer"><i class="far fa-envelope"></i>&nbsp;&nbsp;Email</label></a><br>
+        <a class="contacta" href="https://www.youtube.com/channel/UCyfB5lJC6nnQpoXkdU783Qg"><label style="cursor: pointer"><i class="fab fa-youtube"></i>&nbsp;&nbsp;Youtube Channel</label></a><br>
+        <a class="contacta" href="https://github.com/shivampai"><label style="cursor: pointer"><i class="fab fa-github"></i>&nbsp;&nbsp;Github Account</label></a><br>
+			<label class="contacta" style="font-size: 20px;">Download App</label><br>
+			<a href="https://play.google.com/store/apps/details?id=com.gmail.shivampai2079.imageeditor"><img src="get%20it%20on%20google%20play.png" style="margin-left: 20px;"></a>
+	<a href="https://apkpure.com/imageshare/com.gmail.shivampai2079.imageeditor"><img src="https://static.apkpure.com/www/static/imgs/logo_new@2x.png" title="Download From Apkpure" height="46px;" style="margin-right: 20px;margin-left: 20px;" width="153px;"></a>
+			<button id="download" class="btn btn-primary" onclick="d()">Download Directly</button>
+	
+			</div>
+		</span>
+		</section>
+	</body>
+<style>
+	#contact {
+		background-color: black;
+		padding: 10px;
+	}
+	/* scrollbar */
+::-webkit-scrollbar {
+  width:10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+	border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+	width: 10px;
+}
+html {
+	scroll-behavior: smooth;
+}
+	#hiddenssr {
+	border-color: black;
+		border-width: 1px;
+		font-weight: 400;
+		text-align: left;
+		display: none;
+	}
+	#download {
+	text-align: center;
+	}
+	#main {
+	text-align: center;
+		
+		height: 600px; 
+		background: linear-gradient(orangered, darkorange, orange, white);
+		width: 100%;
+		padding: 20px;
+	}
+	.contacta {
+		color: white;
+	}
+	#space {
+		width: 50px;
+	}
+</style>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</html>
